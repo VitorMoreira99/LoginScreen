@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int A, B, C, soma, resultado;
+
+    printf("Digite o valor de A: ");
+    scanf("%d", &A);
+
+    printf("Digite o valor de B: ");
+    scanf("%d", &B);
+
+    printf("Digite o valor de C: ");
+    scanf("%d", &C);
+
+    soma = A + B + C;
+    resultado = soma * soma;
+
+    printf("O quadrado da soma dos valores é: %d\n", resultado);
+
+    return 0;
+}
